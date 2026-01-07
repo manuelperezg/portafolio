@@ -1,61 +1,70 @@
-	<!doctype html>
-  <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Portafolio | José Manuel Pérez | Desarrollador Web</title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="José Manuel Pérez García">
-    <meta name="description" content="Desarrollador Full-Stack con más de 5 años de experiencia en el desarrollo de proyectos a medida. Con gran capacidad de liderar equipos de trabajo.">
-    <meta name="keywords" content="HTML,CSS,XML,JavaScript,Nodejs,PHP,ProgramacionWeb">    
-    <link rel="shortcut icon" href="favicon.ico"> 
-    <meta name="theme-color" content="#4285f4">
+<!--
+  ================================================================================
+  Título: Portafolio | José Manuel Pérez | Desarrollador Web
+  Autor: José Manuel Pérez García
+  Descripción: Este archivo es el punto de entrada principal de la aplicación.
+               Contiene la estructura básica del documento HTML, incluyendo metadatos,
+               enlaces a hojas de estilo, fuentes y scripts.
+  ================================================================================
+-->
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Metadatos básicos del documento -->
+  <meta charset="utf-8">
+  <title>Portafolio | José Manuel Pérez | Desarrollador Web</title>
 
+  <!-- Metadatos para SEO y compatibilidad -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="José Manuel Pérez García">
+  <meta name="description" content="Desarrollador Full-Stack con más de 5 años de experiencia en el desarrollo de proyectos a medida. Con gran capacidad de liderar equipos de trabajo.">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript,Nodejs,PHP,ProgramacionWeb">
 
-    <!-- Google Font -->
-    <link href='assets/fonts/css26fc.css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <!-- Favicon y color del tema para navegadores móviles -->
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta name="theme-color" content="#4285f4">
 
-    <!-- FontAwesome JS-->
-    <script type="text/javascript" src="assets/plugins/font-awesome/js/fontawesome-all.min.js"></script>
+  <!-- Enlace a la fuente de Google Fonts -->
+  <link href='assets/fonts/css26fc.css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
-    <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/plugins/flickity/flickity.min.css">
+  <!-- Script de FontAwesome para iconos -->
+  <script type="text/javascript" src="assets/plugins/font-awesome/js/fontawesome-all.min.js"></script>
 
+  <!-- Hojas de estilo de los plugins -->
+  <link rel="stylesheet" href="assets/plugins/flickity/flickity.min.css">
 
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
+  <!-- Hoja de estilo principal del tema -->
+  <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
+</head>
+<body>
+  <!--
+    El componente raíz de Angular se renderizará aquí.
+    Toda la aplicación se carga dentro de esta etiqueta.
+  -->
+  <app-root></app-root>
 
-
-  </head>
-  <body>
-    <app-root></app-root>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Script de Google Analytics para seguimiento de visitas -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178906497-1"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-        gtag('config', 'UA-178906497-1');
-      </script>
+    gtag('config', 'UA-178906497-1');
+  </script>
 
+  <!-- Scripts de JavaScript -->
+  <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/popper.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
 
-    <!-- Javascript -->          
-    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
-    <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>    
+  <!-- Scripts específicos de la página -->
+  <script type="text/javascript" src="assets/plugins/flickity/flickity.pkgd.min.js"></script>
 
-    <!-- Page Specific JS -->
-    <script type="text/javascript" src="assets/plugins/flickity/flickity.pkgd.min.js"></script> 
-
-    <!-- Custom JS -->
-    <script type="text/javascript" src="assets/js/main.js"></script>
-    <script type="text/javascript" src="assets/js/flickity-custom.js"></script>
-    
-
-  </body>
-  </html>
+  <!-- Scripts personalizados -->
+  <script type="text/javascript" src="assets/js/main.js"></script>
+  <script type="text/javascript" src="assets/js/flickity-custom.js"></script>
+</body>
+</html>

@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+  ================================================================================
+  Archivo: styles.css
+  Descripción: Este archivo se utiliza para definir estilos globales que se
+               aplicarán en toda la aplicación. También es el lugar adecuado
+               para importar otras hojas de estilo si fuera necesario.
+  ================================================================================
+*/
+
+/*
+  Puedes agregar estilos globales a este archivo y también importar otros
+  archivos de estilo. Por ejemplo:
+
+  @import 'themes/theme-dark.css';
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+*/
